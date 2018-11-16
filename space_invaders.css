@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+
+.ship {
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.enemy {
+    color: red;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+
+.vertical-transform {
+    position: absolute;
+    transform: rotate(90deg);
+    /*transform-origin: left top 0;*/
+}
